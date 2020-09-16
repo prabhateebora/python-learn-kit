@@ -1,0 +1,28 @@
+a=set('abracadbra')
+b=set('alacazam')
+
+
+print(a-b)
+print(b-a)
+print(a^b)
+print(a|b)
+print(a&b)
+
+a={x for x in 'abracadabra ' if x not in 'abc'}
+print(a)
+
+
+
+
+
+basket={'apple','grapes','orange'}
+print(basket)
+
+
+basket.add('mausambi')
+basket.discard('grapes')
+print(basket)
+
+
+for i in basket:
+    print(i)
