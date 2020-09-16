@@ -1,0 +1,44 @@
+
+Dict={
+    3:'same',
+    'a':2,
+    4:[1,2,'a',[1,'c']],
+    't':'true',
+    "fff":2,
+    False:'a',
+    (1,2):'s'
+}
+
+
+if 7 in Dict:
+    print("yes")
+else:
+    print("no")
+
+
+
+print(Dict.get('a'))
+
+Dict[3]='igloo'
+print(Dict.get(3))
+
+
+del Dict['a']
+for key,value in Dict.items():
+    print(key,value)
+ 
+
+
+
+print(Dict.get('sumu','manu'))
+
+
+print(Dict[0])
+
+
+
+
+basket={'apple','grapes','orange'}
+print(basket)
+
+'apple' in basket 
