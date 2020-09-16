@@ -1,0 +1,20 @@
+
+
+
+with open ('sumu.txt') as f: 
+
+    content=f.read()
+    print(content)
+
+    for line in f:
+        print(line,end='')
+
+
+
+f=open("empty.txt","r+")
+f.write("this is an empty file")
+
+
+
+print(content)
+f.close()
