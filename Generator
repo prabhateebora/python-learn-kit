@@ -1,0 +1,8 @@
+def reverse(data):
+	for char in range(len(data)-1, -1, -1):nnn
+		yield data[char]
+
+rev = reverse("sumu")	
+for r in rev:
+ print(r)	
+
