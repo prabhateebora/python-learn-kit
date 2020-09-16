@@ -1,0 +1,10 @@
+
+print("i am {man} superb {woman}.can you {0}".format(man='dancer',woman='a','sumu'))
+
+
+table={'jack':123,'jill':456,'sam':678}
+print('jack:{0[jack]:d},jill:{0[jill]:d},sam:{0[sam]:d}'.format(table))
+
+
+print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; '
+      'Dcab: {0[Dcab]:d}'.format(table))
