@@ -1,0 +1,17 @@
+try:
+    i=0/0
+except TypeError as error:
+    print(eror)
+except ZeroDivisionError :
+     print("000")
+except Exception:
+    print(s) 
+finally:
+    print("everything done")
+
+
+
+try:
+    raise TypeError("exception raised")
+except TypeError:
+    print("done")
